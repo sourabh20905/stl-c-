@@ -4,7 +4,12 @@ approach:
 After swapping ‘b’ and ‘c’, string becomes “acedb”.
 3. after swapping reverse string from found index +1 to end of string
 #include <iostream>
-  
+                                                                                                            time complexti:
+                                                                                                            In the worst case, the first step of next_permutation takes O(n) time.
+                                                                                                                  Binary search takes O(logn) time.
+                                                                                                                  Reverse takes O(n) time.
+                                                                                                                  Overall time complexity is O(n).
+                                                                                                                  Where n is the length of the string.
 using namespace std;
   
 void swap(char* a, char* b)
